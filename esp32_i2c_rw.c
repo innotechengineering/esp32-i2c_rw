@@ -17,7 +17,7 @@
 #include <freertos/task.h>
 #include "esp32_i2c_rw/esp32_i2c_rw.h"
 
-#define I2C_NUM I2C_NUM_0
+#define I2C_NUM (I2C_NUM_0)
 
 void select_register(uint8_t device_address, uint8_t register_address)
 {
